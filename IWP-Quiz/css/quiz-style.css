@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #4b6488;
+  overflow: hidden;
+}
+.header {
+  margin: 10px 0px 10px 0px;
+}
+
+.main {
+  margin-top: 50px;
+}
+
+.page-links {
+  color: indigo;
+}
+.page-buttons {
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 50px;
+  color: #fff;
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%);
+}
+.page-buttons:hover {
+  color: #142a3f;
+  background-color: rgb(255, 255, 255);
+  box-shadow: none;
+  background-image: none;
+  text-decoration: none;
+}
+.box {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 2px;
+}
+
+#question-field,
+#answer-field,
+#feedback,
+#highscores {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#sub-heading {
+  font-size: 20px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: left;
+}
+.col-sm-2 {
+  padding-left: 5px;
+}
+.heading {
+  font-size: 25px;
+  padding-left: 60px;
+  font-weight: 500;
+}
+.heading h2 {
+  border-bottom: #92acd3 3px solid;
+  padding-bottom: 10px;
+}
+#answer-field {
+  display: none;
+  padding-top: 20px;
+  margin: auto;
+  width: 60%;
+}
+
+#feedback {
+  display: none;
+}
+#feedback-text {
+  color: grey;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.highscores-table {
+  margin-top: 30px;
+}
+.rcorners {
+  border-radius: 20px;
+  border: 5px solid indigo;
+  background-color: indigo;
+  color: white;
+  padding: 10px;
+  width: 200px;
+}
+.rcorners2 {
+  border-radius: 20px;
+  border: 5px solid indigo;
+  background-color: indigo;
+  color: white;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 700px;
+}
+.line {
+  display: block;
+  border: none;
+  color: white;
+  height: 5px;
+  background: purple;
+  background: -webkit-gradient(
+    radial,
+    50% 50%,
+    0,
+    50% 50%,
+    600,
+    from(#92acd3),
+    to(#fff)
+  );
+}
+a{
+  text-decoration: none;
+}
